@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.chipmunk.coffeestore.ViewFilpper">
+
+    <ViewFlipper
+        android:id="@+id/id_viewFilpper_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include layout="@layout/viewflipper_1"/>
+        <include layout="@layout/viewflipper_2"/>
+        <include layout="@layout/viewflipper_3"/>
+        <include layout="@layout/viewflipper_4" />
+    </ViewFlipper>
+</LinearLayout>

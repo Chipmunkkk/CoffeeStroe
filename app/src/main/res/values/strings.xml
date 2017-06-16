@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CoffeeStore</string>
+    <string name="recommand">推荐商品</string>
+    <string name="discount">打折商品</string>
+    <string name="hotsell">热销商品</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

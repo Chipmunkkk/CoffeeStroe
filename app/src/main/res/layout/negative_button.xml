@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/reno_sand"/>
+    <RadioGroup
+        android:id="@+id/main_tab_RadioGroup"
+        android:layout_width="match_parent"
+        android:paddingTop="2dp"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:gravity="center_vertical"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio_home"
+            android:layout_weight="1"
+            android:checked="true"
+            style="@style/NavigationButton"
+            android:drawableTop="@drawable/store_normal"
+            android:textAlignment="center"
+            android:textSize="13sp"
+            android:text="首页" />
+
+        <RadioButton
+            android:id="@+id/radio_cart"
+            android:layout_weight="1"
+           style="@style/NavigationButton"
+            android:drawableTop="@drawable/cart_normal"
+            android:textAlignment="center"
+            android:textSize="13sp"
+            android:text="购物车" />
+
+        <RadioButton
+            android:id="@+id/radio_search"
+            android:layout_weight="1"
+            style="@style/NavigationButton"
+            android:drawableTop="@drawable/search_normal"
+            android:textAlignment="center"
+            android:textSize="13sp"
+            android:text="搜索" />
+
+        <RadioButton
+            android:id="@+id/radio_me"
+            android:layout_weight="1"
+            style="@style/NavigationButton"
+            android:drawableTop="@drawable/account_normal"
+            android:textAlignment="center"
+            android:textSize="13sp"
+            android:text="我的" />
+    </RadioGroup>
+</LinearLayout>
